@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutoTest" parallel="tests">
+
+    <test name="TestOppoR9">
+        <parameter name="phoneName" value="OppoR9" />
+        <classes>
+            <class name="testcase.LoginTest"/>
+        </classes>
+    </test>
+    
+    <test name="TestMX6">
+        <parameter name="phoneName" value="MX6" />
+        <classes>
+            <class name="testcase.LoginTest"/>
+        </classes>
+    </test>
+    
+</suite>

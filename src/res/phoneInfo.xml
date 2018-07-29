@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phoneinfo>
+    <phone id="1">
+        <deviceName>OppoR9</deviceName>
+        <platformName>Android</platformName>
+        <appPackage>com.yoosee</appPackage>
+        <appActivity>com.jwkj.activity.LogoActivity</appActivity>
+        <platformVersion>5.0.1</platformVersion>
+        <unicodeKeyboard>True</unicodeKeyboard>
+        <resetKeyboard>True</resetKeyboard>
+        <udid>UWIFEYKR85OFY5AY</udid>
+        <host>127.0.0.1</host>
+        <port>4723</port>
+    </phone>
+    
+    <phone id="2">
+        <deviceName>MX6</deviceName>
+        <platformName>Android</platformName>
+        <appPackage>com.yoosee</appPackage>
+        <appActivity>com.jwkj.activity.LogoActivity</appActivity>
+        <platformVersion>6.0.1</platformVersion>
+        <unicodeKeyboard>True</unicodeKeyboard>
+        <resetKeyboard>True</resetKeyboard>
+        <udid>M95QCCP8G5EBW</udid>
+        <host>127.0.0.1</host>
+        <port>4725</port>
+    </phone>
+    
+</phoneinfo>

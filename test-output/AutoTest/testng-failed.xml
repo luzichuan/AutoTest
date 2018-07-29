@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutoTest]" parallel="tests">
+  <parameter name="phoneName" value="MX6"/>
+  <test name="TestMX6(failed)" parallel="tests">
+    <parameter name="phoneName" value="MX6"/>
+    <classes>
+      <class name="testcase.LoginTest">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcase.LoginTest -->
+    </classes>
+  </test> <!-- TestMX6(failed) -->
+  <test name="TestOppoR9(failed)" parallel="tests">
+    <parameter name="phoneName" value="OppoR9"/>
+    <classes>
+      <class name="testcase.LoginTest">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testcase.LoginTest -->
+    </classes>
+  </test> <!-- TestOppoR9(failed) -->
+</suite> <!-- Failed suite [AutoTest] -->
